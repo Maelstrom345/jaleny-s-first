@@ -266,4 +266,16 @@ li a{
  li a:hover{
    color: crimson;
  }
+ #number th,td{
+   border:2px solid black;
+   width: 30%;
+   border-collapse: collapse;
+ }
 
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
